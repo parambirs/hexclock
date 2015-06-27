@@ -1,0 +1,24 @@
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+html, body {
+    height: 100%;
+}
+
+#time {
+    color: white;
+    height: 72px;
+    line-height: 72px;
+    font-size: 72px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+
+    /* Vertical centering */
+    position: relative;
+    top: 50%;
+    margin-top: -36px;
+
+    /* Horizontal centering */
+    text-align: center;
+}
